@@ -7,6 +7,11 @@ inputs:
     description: 'The unique identifier for the ticket/issue'
     default: ''
     required: false
+    
+  ticketRegex:
+    description: ''
+    default: '\d+'
+    required: false
 
   titleFormat:
     description: "The intended format the title should be set to if it doesn't match the regular expression. Available variables are `%prefix%`, `%id%`, and `%title%`"
