@@ -8,7 +8,7 @@
     "moduleResolution": "node",
     "sourceMap": false,
     "declaration": false,
-    "outDir": "build",
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {
       "*": ["*", "node_modules/*", "src/*"]
