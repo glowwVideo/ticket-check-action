@@ -2,11 +2,11 @@
   "name": "ticket-check-action",
   "description": "Verify that your pull request titles start with a ticket ID",
   "version": "1.4.0",
-  "author": "Neo Financial Engineering <engineering@neofinancial.com>",
+  "author": "glowwVideo <info@gloww.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/neofinancial/ticket-check-action"
+    "url": "https://github.com/glowwVideo/ticket-check-action"
   },
   "main": "lib/main.js",
   "private": true,

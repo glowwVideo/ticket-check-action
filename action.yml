@@ -1,13 +1,13 @@
 name: 'Pull Request Ticket Check Action'
 description: 'Verify that pull request titles start with a ticket ID'
-author: 'Neo Financial Engineering'
+author: 'gloww video'
 
 inputs:
   ticketPrefix:
     description: 'The unique identifier for the ticket/issue'
     default: ''
     required: false
-    
+
   ticketRegex:
     description: ''
     default: '\d+'
@@ -48,15 +48,6 @@ inputs:
     default: 'gim'
     required: true
 
-  bodyURLRegex:
-    description: 'The regular expression used to search the body for a URL reference'
-    required: false
-
-  bodyURLRegexFlags:
-    description: 'The flags applied to the body regular expression when searching for a URL reference'
-    default: 'gim'
-    required: true
-
   exemptUsers:
     description: 'User(s) who will be exempt from the ticket check rules. Particularly useful for automated/bot PRs'
     default: ''
@@ -70,10 +61,6 @@ inputs:
   token:
     description: 'GitHub authentication token'
     required: true
-
-  ticketLink:
-    description: 'Ticket URL with `%ticketNumber%` placeholder'
-    required: false
 
 runs:
   using: 'node12'
